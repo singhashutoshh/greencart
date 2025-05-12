@@ -1,6 +1,6 @@
 # 🛒 Full Stack Grocery Delivery Website Using MERN Stack
 
-This is a fully functional grocery delivery web application built using the *MERN Stack (MongoDB, Express, React, Node.js)*. The project includes a user-friendly frontend, an admin/seller panel, backend APIs, online payment integration using Stripe, and deployment on Vercel — all for free.
+This is a fully functional grocery delivery web application built using the *MERN Stack (MongoDB, Express, React, Node.js)*. The project includes a user-friendly frontend, an admin/seller panel, backend APIs, online payment integration using Stripe, and deployment.
 
 ## 📌 Features
 
