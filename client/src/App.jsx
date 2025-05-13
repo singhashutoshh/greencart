@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 import { Route, Routes, useLocation } from 'react-router-dom'
 
 import { Toaster } from "react-hot-toast";
-
+import Footer from './components/Footer';
 import { useAppContext } from './context/AppContext';
-import Login from './components/Login';
+
 import AllProducts from './pages/AllProducts';
 import ProductCategory from './pages/ProductCategory';
 import ProductDetails from './pages/ProductDetails';
@@ -20,7 +20,7 @@ import Orders from './pages/seller/Orders';
 import Loading from './components/Loading';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
-import Footer from './components/Footer';
+import Login from './Components/Login';
 
 const App = () => {
 
