@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useAppContext } from '../context/AppContext'
-import ProductCard from '../components/ProductCard'
+import ProductCard from '../Components/ProductCard'
 
 const AllProducts = () => {
 
