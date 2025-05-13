@@ -3,7 +3,7 @@
 import { Route, Routes, useLocation } from 'react-router-dom'
 
 import { Toaster } from "react-hot-toast";
-import Footer from './components/Footer';
+import Footer from './Components/Footer';
 import { useAppContext } from './context/AppContext';
 
 import AllProducts from './pages/AllProducts';
@@ -12,14 +12,14 @@ import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
 import AddAddress from './pages/AddAddress';
 import MyOrders from './pages/MyOrders';
-import SellerLogin from './components/seller/SellerLogin';
+import SellerLogin from './Components/seller/SellerLogin';
 import SellerLayout from './pages/seller/SellerLayout';
 import AddProduct from './pages/seller/AddProduct';
 import ProductList from './pages/seller/ProductList';
 import Orders from './pages/seller/Orders';
-import Loading from './components/Loading';
-import Navbar from './Components/Navbar';
-import Home from './Pages/Home';
+import Loading from './Components/Loading';
+import Navbar from './Components/Navbar.jsx';
+import Home from './Pages/Home.jsx';
 import Login from './Components/Login';
 
 const App = () => {
