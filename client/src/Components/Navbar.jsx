@@ -38,6 +38,7 @@ const Navbar = () => {
       </NavLink>
 
       <div className="hidden sm:flex items-center gap-8">
+        <NavLink to='/seller'className="border border-gray-400 px-3 py-1 rounded-full text-xs cursor-pointer opacity-80">Seller Dashboard</NavLink>
         <NavLink to='/'>Home</NavLink>
         <NavLink to='/products'>All Product</NavLink>
         <NavLink to='/'>Contact</NavLink>
@@ -80,6 +81,7 @@ const Navbar = () => {
 
       { open && (
         <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
+        {/* <NavLink to="/seller" onClick={()=> setOpen(false)}>Seller Dashboard</NavLink> */}
         <NavLink to="/" onClick={()=> setOpen(false)}>Home</NavLink>
         <NavLink to="/products" onClick={()=> setOpen(false)}>All Product</NavLink>
         {user && 
